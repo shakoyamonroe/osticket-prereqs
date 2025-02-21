@@ -49,8 +49,8 @@ Before installing osTicket, ensure you have the following:
 - Set up a **Windows 10 VM** with **4 vCPUs** in Azure.
 - Name the VM `osticket-vm`.
 - Log in using Remote Desktop:
-  - Username: `labuser`
-  - Password: `osTicketPassword1!`
+  - Username: `_____`
+  - Password: `______`
 
 ### 2️⃣ Install IIS & Enable CGI
 - Open **Server Manager** → **Add Roles and Features**.
@@ -68,7 +68,7 @@ Before installing osTicket, ensure you have the following:
     - Choose **Typical Setup**.
     - Launch **Configuration Wizard**.
     - Select **Standard Configuration**.
-    - Set Username: `root`, Password: `root`.
+    - Set Username: `____`, Password: `____`.
 
 ### 4️⃣ Configure IIS & PHP
 - Open **IIS as Admin**.
@@ -112,6 +112,6 @@ Before installing osTicket, ensure you have the following:
   - Set **Helpdesk Name** and **Default Email**.
   - Use:
     - **MySQL Database**: `osTicket`
-    - **Username**: `root`
-    - **Password**: `root`
+    - **Username**: `____`
+    - **Password**: `____`
   - Click **Install Now!**.
