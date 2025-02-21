@@ -8,8 +8,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
+- ### [YouTube: How To Install osTicket with Prerequisites]
+](https://youtu.be/fWX1Lj-rOa0?si=BA1g1VMXSFhgVKNy)
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -30,8 +30,8 @@ Before installing osTicket, ensure you have the following:
 - **Azure Virtual Machine**
   - Windows 10, 4 vCPUs
   - Virtual Machine Name:
-  - Username:
-  - Password:
+  - Username:____
+  - Password:____
   - Remote Desktop Access to the VM
 
 - **Required Software & Dependencies**
