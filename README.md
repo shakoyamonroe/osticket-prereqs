@@ -84,6 +84,28 @@ Before installing osTicket, ensure you have the following:
 	•	Move osTicket files to C:\inetpub\wwwroot\osTicket and restart IIS.
 	•	Enable PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll).
 	•	Rename ost-config.php and set permissions.
+ 
+<img width="701" alt="Screenshot 2025-03-05 at 10 29 50 AM" src="https://github.com/user-attachments/assets/57789a49-eb45-4cd3-8570-675bffbaa9ce" />
+
+<img width="577" alt="Screenshot 2025-03-05 at 10 31 07 AM" src="https://github.com/user-attachments/assets/163c4804-9b2b-4ddb-b5e3-a01398c202d9" />
+
+<img width="377" alt="Screenshot 2025-03-05 at 10 33 35 AM" src="https://github.com/user-attachments/assets/da0cf2a3-73d9-4c04-9dae-1256901f9edf" />
+
+<img width="262" alt="Screenshot 2025-03-05 at 10 34 06 AM" src="https://github.com/user-attachments/assets/dd85beb0-1a4d-4969-b4f1-adcac8ad38e4" />
+
+<img width="245" alt="Screenshot 2025-03-05 at 10 34 45 AM" src="https://github.com/user-attachments/assets/e6dc9ed9-8add-4ebc-9502-1ec5993c71e5" />
+
+<img width="629" alt="Screenshot 2025-03-05 at 10 37 52 AM" src="https://github.com/user-attachments/assets/b5b80653-8be3-4524-9f69-8ed586fef104" />
+
+<img width="632" alt="Screenshot 2025-03-05 at 10 36 46 AM" src="https://github.com/user-attachments/assets/126a10b3-0457-4e11-b308-0c135b5338d8" />
+
+<img width="782" alt="Screenshot 2025-03-05 at 10 39 28 AM" src="https://github.com/user-attachments/assets/dc0d16cd-ec6d-460b-9ddf-61cf8a8d4e28" />
+
+
+
+
+
+
 
 4️⃣ Final Setup & Database Configuration
 	•	Create the osTicket database in HeidiSQL.
