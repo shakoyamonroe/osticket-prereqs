@@ -113,8 +113,14 @@ Before installing osTicket, ensure you have the following:
 
  <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
 
- 
-<img width="660" alt="Screenshot 2025-03-05 at 10 45 17 AM" src="https://github.com/user-attachments/assets/e943e96b-5875-41f5-9d52-ae0327f83b02" />
+ <img width="380" alt="Screenshot 2025-03-05 at 10 46 39 AM" src="https://github.com/user-attachments/assets/950f1937-4f72-4b5d-aa6d-dd5d0fb07d56" />
+
+ <img width="457" alt="Screenshot 2025-03-05 at 10 47 14 AM" src="https://github.com/user-attachments/assets/1c6b3b67-c368-44ab-890e-c34119804aae" />
+
+ <img width="609" alt="Screenshot 2025-03-05 at 10 50 30 AM" src="https://github.com/user-attachments/assets/4a740220-38d0-4e09-a9bb-83b7d41f8d69" />
+
+
+
 
 
 
