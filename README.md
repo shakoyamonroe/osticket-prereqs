@@ -110,3 +110,12 @@ Before installing osTicket, ensure you have the following:
 4️⃣ Final Setup & Database Configuration
 	•	Create the osTicket database in HeidiSQL.
 	•	Complete installation via browser with Helpdesk Name, Email, and MySQL credentials.
+
+ <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
+
+ 
+<img width="660" alt="Screenshot 2025-03-05 at 10 45 17 AM" src="https://github.com/user-attachments/assets/e943e96b-5875-41f5-9d52-ae0327f83b02" />
+
+
+
+ 
