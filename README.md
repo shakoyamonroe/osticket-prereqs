@@ -48,6 +48,8 @@ Before installing osTicket, ensure you have the following:
 1️⃣ Set Up the Azure VM & IIS
 	•	Create a Windows 10 VM in Azure (osticket-vm), log in via RDP.
 	•	Install IIS with CGI enabled.
+ 
+ 
 <img width="341" alt="osticket-vm" src="https://github.com/user-attachments/assets/4a338c0f-f0c5-4f07-bc3e-61952060631c" />
 
 <img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
@@ -63,6 +65,7 @@ Before installing osTicket, ensure you have the following:
 2️⃣ Install Required Components
 	•	Install PHP Manager for IIS, IIS Rewrite Module, VC_redist, and MySQL 5.5.62.
 	•	Extract PHP 7.3.8 into C:\PHP and register it in IIS Manager.
+ 
  
 <img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
 
