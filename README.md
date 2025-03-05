@@ -52,7 +52,8 @@ Before installing osTicket, ensure you have the following:
 
 <img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
 
-<img width="340" alt="before create" src="https://github.com/user-attachments/assets/b695d9f4-4262-499f-8277-f1248e231010" />
+<img width="436" alt="Screenshot 2025-03-05 at 9 32 43 AM" src="https://github.com/user-attachments/assets/698c4a4e-6a89-4efe-9475-fb9b137783cf" />
+
 
 
 2️⃣ Install Required Components
