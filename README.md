@@ -56,11 +56,25 @@ Before installing osTicket, ensure you have the following:
 
 <img width="661" alt="Screenshot 2025-03-05 at 9 44 57 AM" src="https://github.com/user-attachments/assets/fbc563f8-b48c-4847-93b1-4379a6a74042" />
 
+<img width="486" alt="Screenshot 2025-03-05 at 10 10 52 AM" src="https://github.com/user-attachments/assets/a4de914e-28a7-40c6-b194-003b30cc5d71" />
+
 
 
 2️⃣ Install Required Components
 	•	Install PHP Manager for IIS, IIS Rewrite Module, VC_redist, and MySQL 5.5.62.
 	•	Extract PHP 7.3.8 into C:\PHP and register it in IIS Manager.
+<img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
+
+<img width="723" alt="Screenshot 2025-03-05 at 10 00 03 AM" src="https://github.com/user-attachments/assets/63c13259-a27f-485a-ab5a-fe20d4f1fa4a" />
+
+<img width="481" alt="Screenshot 2025-03-05 at 10 03 00 AM" src="https://github.com/user-attachments/assets/efe94f55-864b-493d-b987-5d9947ee65a8" />
+
+<img width="486" alt="Screenshot 2025-03-05 at 10 10 52 AM" src="https://github.com/user-attachments/assets/264502ea-1915-433c-a3dd-f3836981022c" />
+
+<img width="590" alt="Screenshot 2025-03-05 at 10 22 27 AM" src="https://github.com/user-attachments/assets/8ea2b6c4-df3e-4211-aa49-e7040a960266" />
+
+<img width="585" alt="Screenshot 2025-03-05 at 10 22 43 AM" src="https://github.com/user-attachments/assets/9c2dc5d4-5acd-4a22-855a-ed7305276a24" />
+
 
 3️⃣ Install & Configure osTicket
 	•	Move osTicket files to C:\inetpub\wwwroot\osTicket and restart IIS.
