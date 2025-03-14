@@ -58,6 +58,7 @@ Before installing osTicket, ensure you have the following:
 
 
 
+
 2️⃣ Install Required Components
 	•	Install PHP Manager for IIS, IIS Rewrite Module, VC_redist, and MySQL 5.5.62.
 	•	Extract PHP 7.3.8 into C:\PHP and register it in IIS Manager.
@@ -74,6 +75,7 @@ Before installing osTicket, ensure you have the following:
 <img width="590" alt="Screenshot 2025-03-05 at 10 22 27 AM" src="https://github.com/user-attachments/assets/8ea2b6c4-df3e-4211-aa49-e7040a960266" />
 
 <img width="585" alt="Screenshot 2025-03-05 at 10 22 43 AM" src="https://github.com/user-attachments/assets/9c2dc5d4-5acd-4a22-855a-ed7305276a24" />
+
 
 
 3️⃣ Install & Configure osTicket
