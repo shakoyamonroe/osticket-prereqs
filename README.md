@@ -79,12 +79,11 @@ Restart IIS to apply changes.
 Open IIS Manager, select your server (osticket-vm), and click Stop, then Start under the Manage Server section to restart the service —this activates the web server so it can begin serving osTicket.
 
 
-3️⃣ Install & Configure osTicket
-	•	Move osTicket files to C:\inetpub\wwwroot\osTicket and restart IIS.
-	•	Enable PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll).
-	•	Rename ost-config.php and set permissions.
  
 <img width="701" alt="Screenshot 2025-03-05 at 10 29 50 AM" src="https://github.com/user-attachments/assets/57789a49-eb45-4cd3-8570-675bffbaa9ce" />
+
+Download and extract osTicket to:
+C:\inetpub\wwwroot\osTicket
 
 <img width="577" alt="Screenshot 2025-03-05 at 10 31 07 AM" src="https://github.com/user-attachments/assets/163c4804-9b2b-4ddb-b5e3-a01398c202d9" />
 
