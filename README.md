@@ -41,7 +41,7 @@ Before installing osTicket, ensure you have the following:
 
 <h2>Installation Steps</h2>
 
-<img width="341" alt="osticket-vm" src="https://github.com/user-attachments/assets/4a338c0f-f0c5-4f07-bc3e-61952060631c" 
+<img width="341" alt="osticket-vm" src="https://github.com/user-attachments/assets/4a338c0f-f0c5-4f07-bc3e-61952060631c" />
 	
 🔹 Step 1: Create Azure VM and Install IIS
 
@@ -58,7 +58,7 @@ Size: Standard_D2s_v3
 OS Image: Windows 10 Pro, version 22H2 - x64 Gen2
 
 
-<img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" 
+<img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
 	
 1.3 After deployment, use RDP to connect using your VM's public IP 
 
