@@ -106,15 +106,10 @@ Restart IIS to apply changes
 
 
 
-
-
-
-
-4️⃣ Final Setup & Database Configuration
-	•	Create the osTicket database in HeidiSQL.
-	•	Complete installation via browser with Helpdesk Name, Email, and MySQL credentials.
-
  <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
+ Open HeidiSQL:
+Connect to MySQL
+Create a new database: osticket
 
  <img width="380" alt="Screenshot 2025-03-05 at 10 46 39 AM" src="https://github.com/user-attachments/assets/950f1937-4f72-4b5d-aa6d-dd5d0fb07d56" />
 
