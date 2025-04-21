@@ -34,10 +34,13 @@ HeidiSQL
 
 <h2>Installation Steps</h2>
 
+
+STEP 1️⃣:
+
+
 <img width="341" alt="osticket-vm" src="https://github.com/user-attachments/assets/4a338c0f-f0c5-4f07-bc3e-61952060631c" />
 <img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
 	
-STEP 1️⃣: 
 
 Create Azure VM and Install IIS
 Begin by accessing the Azure Portal and selecting “Create a Resource” to deploy a new Windows 10 Pro virtual machine. Configure the VM with the name osticket-vm, choose the region closest to your location, and select the Standard_D2s_v3 size (2 vCPUs, 8 GiB RAM) for optimal performance. Use Windows 10 Pro, version 22H2 - x64 Gen2 as the OS image to ensure compatibility with the required services. Once deployed, this virtual machine will serve as the host for osTicket and IIS.
