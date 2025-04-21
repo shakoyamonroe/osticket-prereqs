@@ -6,45 +6,39 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Environments and Technologies Used</h2>
+🛠️ Environments & Technologies Used
+Microsoft Azure (Virtual Machine Deployment)
+Windows 10 Pro (x64)
+Remote Desktop Protocol (RDP)
+Internet Information Services (IIS)
+PHP / MySQL / HeidiSQL
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+✅ Prerequisites
 
-<h2>Operating Systems Used </h2>
+Before installation, ensure you have access to:
+Azure Virtual Machine
+OS: Windows 10 Pro
+VM Specs: 2+ vCPUs, 8+ GB RAM
+RDP Access with Public IP
 
-- Windows 10</b> (21H2)
+Required Software
+IIS with CGI enabled
+PHP Manager for IIS PHPManagerForIIS_V1.5.0.msi
+IIS Rewrite Module rewrite_amd64_en-US.msi
+PHP 7.3.8 php-7.3.8-nts-Win32-VC15-x86.zip
+VC_redist.x86.exe
+MySQL 5.5.62 mysql-5.5.62-win32.msi
+HeidiSQL
 
-<h2>List of Prerequisites</h2>
 
-Before installing osTicket, ensure you have the following:
-
-
-Before installing osTicket, ensure you have the following:
-
-- **Azure Virtual Machine**
-  - Windows 10, 4 vCPUs
-  - Virtual Machine Name:
-  - Username:____
-  - Password:____
-  - Remote Desktop Access to the VM
-
-- **Required Software & Dependencies**
-  - IIS (Internet Information Services) with CGI enabled
-  - PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-  - IIS Rewrite Module (rewrite_amd64_en-US.msi)
-  - PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
-  - VC_redist.x86.exe
-  - MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-  - HeidiSQL
 
 <h2>Installation Steps</h2>
 
 <img width="341" alt="osticket-vm" src="https://github.com/user-attachments/assets/4a338c0f-f0c5-4f07-bc3e-61952060631c" />
 <img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
 	
-Step 1: Create Azure VM and Install IIS
+Step 1: 
+Create Azure VM and Install IIS
 Begin by accessing the Azure Portal and selecting “Create a Resource” to deploy a new Windows 10 Pro virtual machine. Configure the VM with the name osticket-vm, choose the region closest to your location, and select the Standard_D2s_v3 size (2 vCPUs, 8 GiB RAM) for optimal performance. Use Windows 10 Pro, version 22H2 - x64 Gen2 as the OS image to ensure compatibility with the required services. Once deployed, this virtual machine will serve as the host for osTicket and IIS.
 
 
@@ -62,7 +56,7 @@ Open Server Manager, navigate to Add Roles and Features, and select Web Server (
 
 
 
- 
+ STEP 2:
  
 <img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
 <img width="723" alt="Screenshot 2025-03-05 at 10 00 03 AM" src="https://github.com/user-attachments/assets/63c13259-a27f-485a-ab5a-fe20d4f1fa4a" />
@@ -78,7 +72,7 @@ Begin by downloading and installing the required software: PHP Manager for IIS, 
 Restart IIS to apply changes.
 Open IIS Manager, select your server (osticket-vm), and click Stop, then Start under the Manage Server section to restart the service —this activates the web server so it can begin serving osTicket.
 
-
+STEP 3:
  
 <img width="701" alt="Screenshot 2025-03-05 at 10 29 50 AM" src="https://github.com/user-attachments/assets/57789a49-eb45-4cd3-8570-675bffbaa9ce" />
 
@@ -104,7 +98,7 @@ Rename ost-config.php and set full permissions:
 Right-click > Properties > Security > Add "Everyone" with full control
 Restart IIS to apply changes
 
-
+STEP 4:
 
  <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
  
