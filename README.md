@@ -58,14 +58,7 @@ Install IIS
 Open Server Manager, navigate to Add Roles and Features, and select Web Server (IIS). Under Application Development, make sure the CGI feature is enabled.
 
 
-<img width="486" alt="Screenshot 2025-03-05 at 10 10 52 AM" src="https://github.com/user-attachments/assets/a4de914e-28a7-40c6-b194-003b30cc5d71" />
 
-
-
-
-2️⃣ Install Required Components
-	•	Install PHP Manager for IIS, IIS Rewrite Module, VC_redist, and MySQL 5.5.62.
-	•	Extract PHP 7.3.8 into C:\PHP and register it in IIS Manager.
  
  
 <img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
@@ -80,7 +73,8 @@ Open Server Manager, navigate to Add Roles and Features, and select Web Server (
 
 <img width="585" alt="Screenshot 2025-03-05 at 10 22 43 AM" src="https://github.com/user-attachments/assets/9c2dc5d4-5acd-4a22-855a-ed7305276a24" />
 
-
+Download and Install Components
+Begin by downloading and installing the required software: PHP Manager for IIS, the IIS Rewrite Module, VC_redist.x86.exe, and MySQL 5.5.62. These tools are essential for running PHP-based applications and managing database connectivity within the Windows environment.
 
 3️⃣ Install & Configure osTicket
 	•	Move osTicket files to C:\inetpub\wwwroot\osTicket and restart IIS.
