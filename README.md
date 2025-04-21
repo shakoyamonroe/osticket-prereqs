@@ -75,6 +75,9 @@ Begin by downloading and installing the required software: PHP Manager for IIS, 
 <img width="590" alt="Screenshot 2025-03-05 at 10 22 27 AM" src="https://github.com/user-attachments/assets/8ea2b6c4-df3e-4211-aa49-e7040a960266" />
 <img width="585" alt="Screenshot 2025-03-05 at 10 22 43 AM" src="https://github.com/user-attachments/assets/9c2dc5d4-5acd-4a22-855a-ed7305276a24" />
 
+Restart IIS to apply changes.
+Open IIS Manager, select your server (osticket-vm), and click Stop, then Start under the Manage Server section to restart the service —this activates the web server so it can begin serving osTicket.
+
 
 3️⃣ Install & Configure osTicket
 	•	Move osTicket files to C:\inetpub\wwwroot\osTicket and restart IIS.
