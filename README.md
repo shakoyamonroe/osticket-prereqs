@@ -37,7 +37,8 @@ HeidiSQL
 <img width="341" alt="osticket-vm" src="https://github.com/user-attachments/assets/4a338c0f-f0c5-4f07-bc3e-61952060631c" />
 <img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
 	
-Step 1: 
+STEP 1️⃣: 
+
 Create Azure VM and Install IIS
 Begin by accessing the Azure Portal and selecting “Create a Resource” to deploy a new Windows 10 Pro virtual machine. Configure the VM with the name osticket-vm, choose the region closest to your location, and select the Standard_D2s_v3 size (2 vCPUs, 8 GiB RAM) for optimal performance. Use Windows 10 Pro, version 22H2 - x64 Gen2 as the OS image to ensure compatibility with the required services. Once deployed, this virtual machine will serve as the host for osTicket and IIS.
 
@@ -56,7 +57,7 @@ Open Server Manager, navigate to Add Roles and Features, and select Web Server (
 
 
 
- STEP 2:
+ STEP 2️⃣:
  
 <img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
 <img width="723" alt="Screenshot 2025-03-05 at 10 00 03 AM" src="https://github.com/user-attachments/assets/63c13259-a27f-485a-ab5a-fe20d4f1fa4a" />
@@ -72,7 +73,7 @@ Begin by downloading and installing the required software: PHP Manager for IIS, 
 Restart IIS to apply changes.
 Open IIS Manager, select your server (osticket-vm), and click Stop, then Start under the Manage Server section to restart the service —this activates the web server so it can begin serving osTicket.
 
-STEP 3:
+STEP 3️⃣:
  
 <img width="701" alt="Screenshot 2025-03-05 at 10 29 50 AM" src="https://github.com/user-attachments/assets/57789a49-eb45-4cd3-8570-675bffbaa9ce" />
 
@@ -98,7 +99,7 @@ Rename ost-config.php and set full permissions:
 Right-click > Properties > Security > Add "Everyone" with full control
 Restart IIS to apply changes
 
-STEP 4:
+STE️P 4️⃣:
 
  <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
  
