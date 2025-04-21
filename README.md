@@ -60,6 +60,8 @@ Open Server Manager, navigate to Add Roles and Features, and select Web Server (
 
 
 
+
+
  STEP 2️⃣:
  
 <img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
