@@ -47,12 +47,15 @@ Before installing osTicket, ensure you have the following:
 Step 1: Create Azure VM and Install IIS
 Begin by accessing the Azure Portal and selecting “Create a Resource” to deploy a new Windows 10 Pro virtual machine. Configure the VM with the name osticket-vm, choose the region closest to your location, and select the Standard_D2s_v3 size (2 vCPUs, 8 GiB RAM) for optimal performance. Use Windows 10 Pro, version 22H2 - x64 Gen2 as the OS image to ensure compatibility with the required services. Once deployed, this virtual machine will serve as the host for osTicket and IIS.
 
+
 <img width="436" alt="Screenshot 2025-03-05 at 9 32 43 AM" src="https://github.com/user-attachments/assets/698c4a4e-6a89-4efe-9475-fb9b137783cf" />
 
 Connect to VM via RDP
 After the VM is deployed, use Remote Desktop (RDP) and the public IP address to securely connect to your Windows 10 machine.
 
+
 <img width="661" alt="Screenshot 2025-03-05 at 9 44 57 AM" src="https://github.com/user-attachments/assets/fbc563f8-b48c-4847-93b1-4379a6a74042" />
+
 
 Install IIS
 Open Server Manager, navigate to Add Roles and Features, and select Web Server (IIS). Under Application Development, make sure the CGI feature is enabled.
@@ -62,15 +65,10 @@ Open Server Manager, navigate to Add Roles and Features, and select Web Server (
  
  
 <img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
-
 <img width="723" alt="Screenshot 2025-03-05 at 10 00 03 AM" src="https://github.com/user-attachments/assets/63c13259-a27f-485a-ab5a-fe20d4f1fa4a" />
-
 <img width="481" alt="Screenshot 2025-03-05 at 10 03 00 AM" src="https://github.com/user-attachments/assets/efe94f55-864b-493d-b987-5d9947ee65a8" />
-
 <img width="486" alt="Screenshot 2025-03-05 at 10 10 52 AM" src="https://github.com/user-attachments/assets/264502ea-1915-433c-a3dd-f3836981022c" />
-
 <img width="590" alt="Screenshot 2025-03-05 at 10 22 27 AM" src="https://github.com/user-attachments/assets/8ea2b6c4-df3e-4211-aa49-e7040a960266" />
-
 <img width="585" alt="Screenshot 2025-03-05 at 10 22 43 AM" src="https://github.com/user-attachments/assets/9c2dc5d4-5acd-4a22-855a-ed7305276a24" />
 
 Download and Install Components
