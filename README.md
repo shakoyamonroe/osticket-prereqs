@@ -86,6 +86,9 @@ Download and extract osTicket to:
 C:\inetpub\wwwroot\osTicket
 
 <img width="577" alt="Screenshot 2025-03-05 at 10 31 07 AM" src="https://github.com/user-attachments/assets/163c4804-9b2b-4ddb-b5e3-a01398c202d9" />
+
+With osTicket configured in IIS, the user selects the site under Default Web Site and clicks *“Browse :80 (http)” to launch the osTicket setup page in a browser, verifying that the application is accessible and ready for final installation.
+
 <img width="377" alt="Screenshot 2025-03-05 at 10 33 35 AM" src="https://github.com/user-attachments/assets/da0cf2a3-73d9-4c04-9dae-1256901f9edf" />
 <img width="262" alt="Screenshot 2025-03-05 at 10 34 06 AM" src="https://github.com/user-attachments/assets/dd85beb0-1a4d-4969-b4f1-adcac8ad38e4" />
 <img width="245" alt="Screenshot 2025-03-05 at 10 34 45 AM" src="https://github.com/user-attachments/assets/e6dc9ed9-8add-4ebc-9502-1ec5993c71e5" />
