@@ -97,10 +97,12 @@ Enable Required PHP Extensions
 Enable the necessary PHP extensions in IIS to ensure osTicket functions properly. Specifically, activate php_imap.dll, php_intl.dll, and php_opcache.dll by modifying the PHP configuration settings within the PHP Manager or directly in the php.ini file.
 
 <img width="629" alt="Screenshot 2025-03-05 at 10 37 52 AM" src="https://github.com/user-attachments/assets/b5b80653-8be3-4524-9f69-8ed586fef104" />
-
 <img width="632" alt="Screenshot 2025-03-05 at 10 36 46 AM" src="https://github.com/user-attachments/assets/126a10b3-0457-4e11-b308-0c135b5338d8" />
-
 <img width="782" alt="Screenshot 2025-03-05 at 10 39 28 AM" src="https://github.com/user-attachments/assets/dc0d16cd-ec6d-460b-9ddf-61cf8a8d4e28" />
+
+Rename ost-config.php and set full permissions:
+Right-click > Properties > Security > Add "Everyone" with full control
+Restart IIS to apply changes
 
 
 
