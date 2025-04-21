@@ -107,9 +107,10 @@ Restart IIS to apply changes
 
 
  <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
- Open HeidiSQL:
-Connect to MySQL
-Create a new database: osticket
+ 
+  Configure Database in HeidiSQL
+Launch HeidiSQL and connect to your MySQL server using the credentials set during installation. Once connected, create a new database named osticket, which will store all the data for your help desk application.
+
 
  <img width="380" alt="Screenshot 2025-03-05 at 10 46 39 AM" src="https://github.com/user-attachments/assets/950f1937-4f72-4b5d-aa6d-dd5d0fb07d56" />
 
