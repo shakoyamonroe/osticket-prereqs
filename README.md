@@ -54,6 +54,10 @@ After the VM is deployed, use Remote Desktop (RDP) and the public IP address to 
 
 <img width="661" alt="Screenshot 2025-03-05 at 9 44 57 AM" src="https://github.com/user-attachments/assets/fbc563f8-b48c-4847-93b1-4379a6a74042" />
 
+Install IIS
+Open Server Manager, navigate to Add Roles and Features, and select Web Server (IIS). Under Application Development, make sure the CGI feature is enabled.
+
+
 <img width="486" alt="Screenshot 2025-03-05 at 10 10 52 AM" src="https://github.com/user-attachments/assets/a4de914e-28a7-40c6-b194-003b30cc5d71" />
 
 
