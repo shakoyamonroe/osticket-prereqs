@@ -41,15 +41,21 @@ Before installing osTicket, ensure you have the following:
 
 <h2>Installation Steps</h2>
 
-1️⃣ Set Up the Azure VM & IIS
-	•	Create a Windows 10 VM in Azure (osticket-vm), log in via RDP.
-	•	Install IIS with CGI enabled.
- 
+Step 1: Create Azure VM (Windows 10)
+Provision a VM named osticket-vm using a Windows 10 image via the Azure Portal.
  
 <img width="341" alt="osticket-vm" src="https://github.com/user-attachments/assets/4a338c0f-f0c5-4f07-bc3e-61952060631c" />
 
+Step 2: RDP into the VM
+Use Remote Desktop (RDP) to connect to the new VM.
+
 <img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
 
+Step 3: Install IIS and Enable CGI
+Open “Turn Windows features on or off” and enable:
+	•	Internet Information Services (IIS)
+	•	CGI
+ 
 <img width="436" alt="Screenshot 2025-03-05 at 9 32 43 AM" src="https://github.com/user-attachments/assets/698c4a4e-6a89-4efe-9475-fb9b137783cf" />
 
 <img width="661" alt="Screenshot 2025-03-05 at 9 44 57 AM" src="https://github.com/user-attachments/assets/fbc563f8-b48c-4847-93b1-4379a6a74042" />
