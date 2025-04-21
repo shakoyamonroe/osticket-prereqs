@@ -86,12 +86,12 @@ Download and extract osTicket to:
 C:\inetpub\wwwroot\osTicket
 
 <img width="577" alt="Screenshot 2025-03-05 at 10 31 07 AM" src="https://github.com/user-attachments/assets/163c4804-9b2b-4ddb-b5e3-a01398c202d9" />
-
 <img width="377" alt="Screenshot 2025-03-05 at 10 33 35 AM" src="https://github.com/user-attachments/assets/da0cf2a3-73d9-4c04-9dae-1256901f9edf" />
-
 <img width="262" alt="Screenshot 2025-03-05 at 10 34 06 AM" src="https://github.com/user-attachments/assets/dd85beb0-1a4d-4969-b4f1-adcac8ad38e4" />
-
 <img width="245" alt="Screenshot 2025-03-05 at 10 34 45 AM" src="https://github.com/user-attachments/assets/e6dc9ed9-8add-4ebc-9502-1ec5993c71e5" />
+
+Enable Required PHP Extensions
+Enable the necessary PHP extensions in IIS to ensure osTicket functions properly. Specifically, activate php_imap.dll, php_intl.dll, and php_opcache.dll by modifying the PHP configuration settings within the PHP Manager or directly in the php.ini file.
 
 <img width="629" alt="Screenshot 2025-03-05 at 10 37 52 AM" src="https://github.com/user-attachments/assets/b5b80653-8be3-4524-9f69-8ed586fef104" />
 
