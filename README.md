@@ -113,13 +113,12 @@ Launch HeidiSQL and connect to your MySQL server using the credentials set durin
 
 
  <img width="380" alt="Screenshot 2025-03-05 at 10 46 39 AM" src="https://github.com/user-attachments/assets/950f1937-4f72-4b5d-aa6d-dd5d0fb07d56" />
-
  <img width="457" alt="Screenshot 2025-03-05 at 10 47 14 AM" src="https://github.com/user-attachments/assets/1c6b3b67-c368-44ab-890e-c34119804aae" />
-
  <img width="609" alt="Screenshot 2025-03-05 at 10 50 30 AM" src="https://github.com/user-attachments/assets/4a740220-38d0-4e09-a9bb-83b7d41f8d69" />
 
 
-
+Final Installation via Browser
+Open a web browser and navigate to http://<your-vm-ip>/osTicket. Complete the setup by entering your Helpdesk name, admin email address, and the MySQL database credentials you created earlier.
 
 
 
