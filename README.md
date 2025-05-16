@@ -44,13 +44,13 @@ Begin by accessing the Azure Portal and selecting “Create a Resource” to dep
 <img width="332" alt="windows:standard" src="https://github.com/user-attachments/assets/db68a7dd-3376-41ef-af16-5ae3910ebdfd" />
 	
 
-Connect to VM via RDP
+1.1 Connect to VM via RDP
 After the VM is deployed, use Remote Desktop (RDP) and the public IP address to securely connect to your Windows 10 machine.
 
 <img width="436" alt="Screenshot 2025-03-05 at 9 32 43 AM" src="https://github.com/user-attachments/assets/698c4a4e-6a89-4efe-9475-fb9b137783cf" />
 
 
-Install IIS
+1.2 Install IIS
 Open Server Manager, navigate to Add Roles and Features, and select Web Server (IIS). Under Application Development, make sure the CGI feature is enabled.
 
 <img width="661" alt="Screenshot 2025-03-05 at 9 44 57 AM" src="https://github.com/user-attachments/assets/fbc563f8-b48c-4847-93b1-4379a6a74042" />
@@ -68,7 +68,7 @@ Begin by downloading and installing the required software: PHP Manager for IIS, 
 <img width="486" alt="Screenshot 2025-03-05 at 10 10 52 AM" src="https://github.com/user-attachments/assets/264502ea-1915-433c-a3dd-f3836981022c" />
 
 
-Restart IIS to apply changes.
+2.1 Restart IIS to apply changes.
 Open IIS Manager, select your server (osticket-vm), and click Stop, then Start under the Manage Server section to restart the service —this activates the web server so it can begin serving osTicket.
 
 <img width="590" alt="Screenshot 2025-03-05 at 10 22 27 AM" src="https://github.com/user-attachments/assets/8ea2b6c4-df3e-4211-aa49-e7040a960266" />
@@ -76,47 +76,46 @@ Open IIS Manager, select your server (osticket-vm), and click Stop, then Start u
 
 
 
-STEP 3️⃣:
+STEP 3️⃣: Download and extract osTicket to:
+C:\inetpub\wwwroot\osTicket
  
 <img width="701" alt="Screenshot 2025-03-05 at 10 29 50 AM" src="https://github.com/user-attachments/assets/57789a49-eb45-4cd3-8570-675bffbaa9ce" />
 
-Download and extract osTicket to:
-C:\inetpub\wwwroot\osTicket
+3.1 With osTicket configured in IIS, the user selects the site under Default Web Site and clicks *“Browse :80 (http)” to launch the osTicket setup page in a browser, verifying that the application is accessible and ready for final installation.
 
 <img width="577" alt="Screenshot 2025-03-05 at 10 31 07 AM" src="https://github.com/user-attachments/assets/163c4804-9b2b-4ddb-b5e3-a01398c202d9" />
 
-With osTicket configured in IIS, the user selects the site under Default Web Site and clicks *“Browse :80 (http)” to launch the osTicket setup page in a browser, verifying that the application is accessible and ready for final installation.
-
+3.2 Enable Required PHP Extensions
+Enable the necessary PHP extensions in IIS to ensure osTicket functions properly. Specifically, activate php_imap.dll, php_intl.dll, and php_opcache.dll by modifying the PHP configuration settings within the PHP Manager or directly in the php.ini file.
 <img width="377" alt="Screenshot 2025-03-05 at 10 33 35 AM" src="https://github.com/user-attachments/assets/da0cf2a3-73d9-4c04-9dae-1256901f9edf" />
 <img width="262" alt="Screenshot 2025-03-05 at 10 34 06 AM" src="https://github.com/user-attachments/assets/dd85beb0-1a4d-4969-b4f1-adcac8ad38e4" />
 <img width="245" alt="Screenshot 2025-03-05 at 10 34 45 AM" src="https://github.com/user-attachments/assets/e6dc9ed9-8add-4ebc-9502-1ec5993c71e5" />
 
-Enable Required PHP Extensions
-Enable the necessary PHP extensions in IIS to ensure osTicket functions properly. Specifically, activate php_imap.dll, php_intl.dll, and php_opcache.dll by modifying the PHP configuration settings within the PHP Manager or directly in the php.ini file.
+
+3.3 Rename ost-config.php and set full permissions:
+Right-click > Properties > Security > Add "Everyone" with full control
+Restart IIS to apply changes
 
 <img width="629" alt="Screenshot 2025-03-05 at 10 37 52 AM" src="https://github.com/user-attachments/assets/b5b80653-8be3-4524-9f69-8ed586fef104" />
 <img width="632" alt="Screenshot 2025-03-05 at 10 36 46 AM" src="https://github.com/user-attachments/assets/126a10b3-0457-4e11-b308-0c135b5338d8" />
 <img width="782" alt="Screenshot 2025-03-05 at 10 39 28 AM" src="https://github.com/user-attachments/assets/dc0d16cd-ec6d-460b-9ddf-61cf8a8d4e28" />
 
-Rename ost-config.php and set full permissions:
-Right-click > Properties > Security > Add "Everyone" with full control
-Restart IIS to apply changes
 
-STE️P 4️⃣:
+
+STE️P 4️⃣:  Configure Database in HeidiSQL
+Launch HeidiSQL and connect to your MySQL server using the credentials set during installation. Once connected, create a new database named osticket, which will store all the data for your help desk application.
 
  <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
  
-  Configure Database in HeidiSQL
-Launch HeidiSQL and connect to your MySQL server using the credentials set during installation. Once connected, create a new database named osticket, which will store all the data for your help desk application.
+ 
 
+4.1 Final Installation via Browser
+Open a web browser and navigate to http://<your-vm-ip>/osTicket. Complete the setup by entering your Helpdesk name, admin email address, and the MySQL database credentials you created earlier.
 
  <img width="380" alt="Screenshot 2025-03-05 at 10 46 39 AM" src="https://github.com/user-attachments/assets/950f1937-4f72-4b5d-aa6d-dd5d0fb07d56" />
  <img width="457" alt="Screenshot 2025-03-05 at 10 47 14 AM" src="https://github.com/user-attachments/assets/1c6b3b67-c368-44ab-890e-c34119804aae" />
  <img width="609" alt="Screenshot 2025-03-05 at 10 50 30 AM" src="https://github.com/user-attachments/assets/4a740220-38d0-4e09-a9bb-83b7d41f8d69" />
 
-
-Final Installation via Browser
-Open a web browser and navigate to http://<your-vm-ip>/osTicket. Complete the setup by entering your Helpdesk name, admin email address, and the MySQL database credentials you created earlier.
 
 
 
