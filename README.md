@@ -42,6 +42,7 @@ Before you install anything, make sure you have:
 
 
 STEP 1️⃣: Create Azure VM and Install IIS
+
 Begin by accessing the Azure Portal and selecting “Create a Resource” to deploy a new Windows 10 Pro virtual machine. Configure the VM with the name osticket-vm, choose the region closest to your location, and select the Standard_D2s_v3 size (2 vCPUs, 8 GiB RAM) for optimal performance. Use Windows 10 Pro, version 22H2 - x64 Gen2 as the OS image to ensure compatibility with the required services. Once deployed, this virtual machine will serve as the host for osTicket and IIS.
 
 
@@ -51,18 +52,21 @@ Begin by accessing the Azure Portal and selecting “Create a Resource” to dep
 	
 
 1.1 Connect to VM via RDP
+
 After the VM is deployed, use Remote Desktop (RDP) and the public IP address to securely connect to your Windows 10 machine.
 
 <img width="436" alt="Screenshot 2025-03-05 at 9 32 43 AM" src="https://github.com/user-attachments/assets/698c4a4e-6a89-4efe-9475-fb9b137783cf" />
 
 
 1.2 Install IIS
+
 Open Server Manager, navigate to Add Roles and Features, and select Web Server (IIS). Under Application Development, make sure the CGI feature is enabled.
 
 <img width="661" alt="Screenshot 2025-03-05 at 9 44 57 AM" src="https://github.com/user-attachments/assets/fbc563f8-b48c-4847-93b1-4379a6a74042" />
 
 
  STEP 2️⃣: Download and Install Components
+ 
 Begin by downloading and installing the required software: PHP Manager for IIS, the IIS Rewrite Module, VC_redist.x86.exe, and MySQL 5.5.62. These tools are essential for running PHP-based applications and managing database connectivity within the Windows environment.
  
 <img width="569" alt="Screenshot 2025-03-05 at 9 51 49 AM" src="https://github.com/user-attachments/assets/ecdc6703-f40b-4662-898c-fae481842e20" />
@@ -75,6 +79,7 @@ Begin by downloading and installing the required software: PHP Manager for IIS, 
 
 
 2.1 Restart IIS to apply changes.
+
 Open IIS Manager, select your server (osticket-vm), and click Stop, then Start under the Manage Server section to restart the service —this activates the web server so it can begin serving osTicket.
 
 <img width="590" alt="Screenshot 2025-03-05 at 10 22 27 AM" src="https://github.com/user-attachments/assets/8ea2b6c4-df3e-4211-aa49-e7040a960266" />
@@ -92,6 +97,7 @@ C:\inetpub\wwwroot\osTicket
 <img width="577" alt="Screenshot 2025-03-05 at 10 31 07 AM" src="https://github.com/user-attachments/assets/163c4804-9b2b-4ddb-b5e3-a01398c202d9" />
 
 3.2 Enable Required PHP Extensions
+
 Enable the necessary PHP extensions in IIS to ensure osTicket functions properly. Specifically, activate php_imap.dll, php_intl.dll, and php_opcache.dll by modifying the PHP configuration settings within the PHP Manager or directly in the php.ini file.
 <img width="377" alt="Screenshot 2025-03-05 at 10 33 35 AM" src="https://github.com/user-attachments/assets/da0cf2a3-73d9-4c04-9dae-1256901f9edf" />
 <img width="262" alt="Screenshot 2025-03-05 at 10 34 06 AM" src="https://github.com/user-attachments/assets/dd85beb0-1a4d-4969-b4f1-adcac8ad38e4" />
@@ -109,6 +115,7 @@ Restart IIS to apply changes
 
 
 STE️P 4️⃣:  Configure Database in HeidiSQL
+
 Launch HeidiSQL and connect to your MySQL server using the credentials set during installation. Once connected, create a new database named osticket, which will store all the data for your help desk application.
 
  <img width="788" alt="Screenshot 2025-03-05 at 10 48 20 AM" src="https://github.com/user-attachments/assets/74753633-5434-413d-b0fd-f756d24a5513" />
@@ -116,6 +123,7 @@ Launch HeidiSQL and connect to your MySQL server using the credentials set durin
  
 
 4.1 Final Installation via Browser
+
 Open a web browser and navigate to http://<your-vm-ip>/osTicket. Complete the setup by entering your Helpdesk name, admin email address, and the MySQL database credentials you created earlier.
 
  <img width="380" alt="Screenshot 2025-03-05 at 10 46 39 AM" src="https://github.com/user-attachments/assets/950f1937-4f72-4b5d-aa6d-dd5d0fb07d56" />
