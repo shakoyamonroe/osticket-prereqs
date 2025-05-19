@@ -2,33 +2,39 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+📦 1. Prerequisites
 
+Before you install anything, make sure you have:
 
-🛠️ Environments & Technologies Used
-Microsoft Azure (Virtual Machine Deployment)
-Windows 10 Pro (x64)
-Remote Desktop Protocol (RDP)
-Internet Information Services (IIS)
-PHP / MySQL / HeidiSQL
+✅ Environment
+	•	Azure Virtual Machine
+	•	OS: Windows 10 Pro (x64)
+	•	Specs: 2+ vCPUs, 8+ GB RAM
+	•	Public IP with RDP Access enabled
 
-✅ Prerequisites
+✅ Required Software Downloads
+	•	IIS (Internet Information Services) with CGI Enabled
+	•	PHP Manager for IIS
+➤ PHPManagerForIIS_V1.5.0.msi
+	•	IIS Rewrite Module
+➤ rewrite_amd64_en-US.msi
+	•	PHP 7.3.8
+➤ php-7.3.8-nts-Win32-VC15-x86.zip
+	•	VC++ Redistributable
+➤ VC_redist.x86.exe
+	•	MySQL 5.5.62
+➤ mysql-5.5.62-win32.msi
+	•	HeidiSQL (GUI MySQL management)
 
-Before installation, ensure you have access to:
-Azure Virtual Machine
-OS: Windows 10 Pro
-VM Specs: 2+ vCPUs, 8+ GB RAM
-RDP Access with Public IP
+⸻
 
-Required Software
-IIS with CGI enabled
-PHP Manager for IIS PHPManagerForIIS_V1.5.0.msi
-IIS Rewrite Module rewrite_amd64_en-US.msi
-PHP 7.3.8 php-7.3.8-nts-Win32-VC15-x86.zip
-VC_redist.x86.exe
-MySQL 5.5.62 mysql-5.5.62-win32.msi
-HeidiSQL
+⚙️ 2. Environments & Technologies Used
+	•	Deployment: Microsoft Azure (VM)
+	•	OS: Windows 10 Pro
+	•	Connection: RDP
+	•	Web Server: IIS
+	•	Programming Stack: PHP / MySQL
+	•	Database GUI: HeidiSQL
 
 
 
